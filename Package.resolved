@@ -1,5 +1,5 @@
 {
-  "originHash" : "17a336910328570ded58ac43a0a968d24035f44ef72adeedb4f7c70eee6790b3",
+  "originHash" : "0dc400ed29f7cc8a8ff977ea079c80ae05468389fefb8f283419f31145a21a89",
   "pins" : [
     {
       "identity" : "adjust_signature_sdk",
@@ -105,8 +105,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/LKstoreReady/LKChar",
       "state" : {
-        "revision" : "8e8323755da631cd821b2cd92d44c28d94fb044c",
-        "version" : "1.0.1"
+        "revision" : "e696e7717aea987b0df6b6425d1ac49866dcfa75",
+        "version" : "1.0.2"
       }
     },
     {

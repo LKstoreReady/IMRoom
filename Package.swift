@@ -15,14 +15,13 @@ let package = Package(
             targets: ["IMRoom"]),
     ],
     dependencies: [
-        // 在这里重新添加你之前的第三方依赖
         .package(url: "https://github.com/CoderMJLee/MJRefresh", .upToNextMajor(from: "3.7.9")),
         .package(url: "https://github.com/aws-amplify/aws-sdk-ios-spm.git", .upToNextMajor(from: "2.41.0")),
         .package(url: "https://github.com/rongcloud/RongCloudIM-iOS", .upToNextMajor(from: "5.24.2")),
         .package(url: "https://github.com/LKstoreReady/CKStar", .upToNextMajor(from: "1.0.0")),
         .package(url: "https://github.com/LKstoreReady/TTLBGenerals", .upToNextMajor(from: "1.0.0")),
         .package(url: "https://github.com/LKstoreReady/NKWorking", .upToNextMajor(from: "1.0.1")),
-        .package(url: "https://github.com/LKstoreReady/LKChar", .upToNextMajor(from: "1.0.1")),
+        .package(url: "https://github.com/LKstoreReady/LKChar", .upToNextMajor(from: "1.0.2")),
         .package(url: "https://github.com/LKstoreReady/GFCard", .upToNextMajor(from: "1.0.1"))
     ],
     targets: [
@@ -31,16 +30,16 @@ let package = Package(
         .target(
             name: "IMRoom",
             dependencies: [
-//                .product(name: "CKStar", package: "CKStar"),
-//                .product(name: "TTLBGenerals", package: "TTLBGenerals"),
-//                .product(name: "NKWorking", package: "NKWorking"),
-//                .product(name: "LKChar", package: "LKChar"),
-//                .product(name: "GFCard", package: "GFCard"),
-//                .product(name: "MJRefresh", package: "MJRefresh"),
-//                .product(name: "AWSCore", package: "aws-sdk-ios-spm"),
-//                .product(name: "AWSS3", package: "aws-sdk-ios-spm"),
-//                .product(name: "IMLibCore", package: "RongCloudIM-iOS"),
-//                .product(name: "ChatRoom", package: "RongCloudIM-iOS"),
+                .product(name: "CKStar", package: "CKStar"),
+                .product(name: "TTLBGenerals", package: "TTLBGenerals"),
+                .product(name: "NKWorking", package: "NKWorking"),
+                .product(name: "LKChar", package: "LKChar"),
+                .product(name: "GFCard", package: "GFCard"),
+                .product(name: "MJRefresh", package: "MJRefresh"),
+                .product(name: "AWSCore", package: "aws-sdk-ios-spm"),
+                .product(name: "AWSS3", package: "aws-sdk-ios-spm"),
+                .product(name: "IMLibCore", package: "RongCloudIM-iOS"),
+                .product(name: "ChatRoom", package: "RongCloudIM-iOS"),
             ]
         )
     ],

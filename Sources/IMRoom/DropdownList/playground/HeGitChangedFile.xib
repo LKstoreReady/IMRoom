@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeGitChangedFile" customModule="Taleo_Chatroom">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ddT-wC-rot">
+                    <rect key="frame" x="0.0" y="582" width="393" height="270"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HHP-GB-oiF">
+                            <rect key="frame" x="0.0" y="18" width="393" height="19"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="19" id="fS9-oY-0qd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <color key="textColor" red="0.80392156862745101" green="0.52941176470588236" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ksp-G7-kQg">
+                            <rect key="frame" x="343" y="6" width="44" height="44"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="44" id="Ml3-EN-jh8"/>
+                                <constraint firstAttribute="height" constant="44" id="YSP-TO-H0l"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="wRefreshFeed" value="ShutDownIcon"/>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="isIncomingRing:" destination="iN0-l3-epB" eventType="touchUpInside" id="xql-kq-U0Y"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rm5-Pi-u05">
+                            <rect key="frame" x="24" y="57" width="345" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                            <color key="textColor" red="0.80392156862745101" green="0.52941176470588236" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="0.86274509803921573" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="HHP-GB-oiF" firstAttribute="top" secondItem="ddT-wC-rot" secondAttribute="top" constant="18" id="3a8-Jd-vPY"/>
+                        <constraint firstAttribute="height" constant="270" id="8ce-zK-dIv"/>
+                        <constraint firstItem="Ksp-G7-kQg" firstAttribute="top" secondItem="ddT-wC-rot" secondAttribute="top" constant="6" id="Hfe-eF-yCt"/>
+                        <constraint firstAttribute="trailing" secondItem="Rm5-Pi-u05" secondAttribute="trailing" constant="24" id="Kiv-AQ-ClD"/>
+                        <constraint firstItem="Rm5-Pi-u05" firstAttribute="leading" secondItem="ddT-wC-rot" secondAttribute="leading" constant="24" id="P7H-c6-66K"/>
+                        <constraint firstItem="Rm5-Pi-u05" firstAttribute="top" secondItem="HHP-GB-oiF" secondAttribute="bottom" constant="20" id="TC0-QI-YRg"/>
+                        <constraint firstAttribute="trailing" secondItem="HHP-GB-oiF" secondAttribute="trailing" id="Ze2-GI-Pgr"/>
+                        <constraint firstItem="HHP-GB-oiF" firstAttribute="leading" secondItem="ddT-wC-rot" secondAttribute="leading" id="aC0-cM-gQ1"/>
+                        <constraint firstAttribute="trailing" secondItem="Ksp-G7-kQg" secondAttribute="trailing" constant="6" id="n2i-yc-Rls"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.maskedCorners">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ddT-wC-rot" secondAttribute="trailing" id="hKb-Lj-0XD"/>
+                <constraint firstItem="ddT-wC-rot" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="sL7-zA-6XO"/>
+                <constraint firstAttribute="bottom" secondItem="ddT-wC-rot" secondAttribute="bottom" id="tIk-qB-SXr"/>
+            </constraints>
+            <connections>
+                <outlet property="sSetCity" destination="Rm5-Pi-u05" id="BYo-rx-2E1"/>
+                <outlet property="hIsTranslator" destination="HHP-GB-oiF" id="azC-OF-EWV"/>
+            </connections>
+            <point key="canvasLocation" x="96.946564885496173" y="-11.267605633802818"/>
+        </view>
+    </objects>
+</document>
