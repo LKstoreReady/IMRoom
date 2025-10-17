@@ -1,8 +1,8 @@
 
 import UIKit
-import TTLBGenerals
-import CKStar
-import NKWorking
+import Taleo_General
+import Taleo_mine
+import Package_net
 
 class HeXmlParser: UITableViewCell {
 
@@ -162,7 +162,8 @@ class HeXmlParser: UITableViewCell {
             }
             tStageMap.addSubview(fToggleAttach!)
             fToggleAttach?.image = nil
-            fToggleAttach?.getStatusBarHeight(uGestureMode[iDispatchCancel] as! String)
+//            fToggleAttach?.getStatusBarHeight(uGestureMode[iDispatchCancel] as! String)
+            fToggleAttach?.sd_setImage(with: URL(string: uGestureMode[iDispatchCancel] as! String))
             var aCheckFloat = 44.0
             let wSetScratch = uGestureMode[iDispatchCancel] as! String
             let bStrictEqual = wSetScratch.components(separatedBy: "?")
