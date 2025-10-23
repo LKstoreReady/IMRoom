@@ -1,8 +1,8 @@
 
 import UIKit
-import Taleo_General
-import Taleo_mine
-import Package_net
+import TTLBGenerals
+import CKStar
+import NKWorking
 
 class HeXmlParser: UITableViewCell {
 
