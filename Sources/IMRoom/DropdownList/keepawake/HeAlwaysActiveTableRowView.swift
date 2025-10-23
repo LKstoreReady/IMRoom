@@ -404,8 +404,8 @@ class HeAlwaysActiveTableRowView: HeTraditionalChineseObject, PHPickerViewContro
                     }
                 case .limited:
                     symRoundedRecenter()
-                @unknown default:
-                    print("")
+                @unknown default: break
+                    
                 }
             }else {
                 if sender.tag > 2 {

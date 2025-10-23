@@ -968,7 +968,26 @@ class HeImagePoissonBlendFilter: HeTraditionalChineseObject, @preconcurrency dic
         }
     }
     @MainActor func laColumnsSolid(_ value : NSDictionary) {
-        if HeExecuteDelete.iRemindersB.vRawColors == true {return}
+        if HeExecuteDelete.iRemindersB.vRawColors == true {
+            let bConfigHardware = value.setLoadingBackgroundColor(roundPriceChange("symbian_lookat_mobiilirakendus")).scannerWithString(roundPriceChange("bog_amikor"))
+            if bConfigHardware.count == 0 {
+                qVisitRenderables.aMutableDisplays = pPreviewProcess?.oPermClass
+                let gSharedChannel = mMatCyclone!.convert(dFocusableMode.bounds, from: dFocusableMode)
+                qVisitRenderables.bSharpTry = gSharedChannel.minY + gSharedChannel.height
+                qVisitRenderables.setTimeLimit(value)
+            }
+            let nRevolute = value.setLoadingBackgroundColor(roundPriceChange("symbian_lookat_mobiilirakendus"))
+            let hBuildFinished = HeExceptionAdapter()
+            hBuildFinished.bIsExpected = oBundledPath.tDocumentReference
+            hBuildFinished.mAssertMin = nRevolute
+            let lDependsOn = value.setLoadingBackgroundColor(roundPriceChange("symbian_lookat_mobiilirakendus")).wxLaunchId(roundPriceChange("hant_eus"))
+            if lDependsOn > 0 {
+                self.buttonOffColor(hBuildFinished, 0)
+            }
+            return
+        }
+        
+        
         let bConfigHardware = value.setLoadingBackgroundColor(roundPriceChange("symbian_lookat_mobiilirakendus")).scannerWithString(roundPriceChange("bog_amikor"))
         if bConfigHardware.count == 0 {
             qVisitRenderables.aMutableDisplays = pPreviewProcess?.oPermClass

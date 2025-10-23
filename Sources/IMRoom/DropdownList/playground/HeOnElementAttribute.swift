@@ -137,6 +137,7 @@ class HeOnElementAttribute: HeSetGenres {
             fadeToBlack("zri_showmode", "")
             break
         case 7:
+            isPm = true
             fadeToBlack("hanke_avoin_aws", "")
             break
         case 8:
@@ -147,6 +148,7 @@ class HeOnElementAttribute: HeSetGenres {
             }
             break
         case 9:
+            isPm = false
             fadeToBlack("deprecated_ffp", "")
             break
         default:

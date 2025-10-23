@@ -55,6 +55,7 @@ class HeBeginReceiveMessageFrom: UIView {
     }
         
     @IBAction func createFunctionExpr(_ sender: UIButton) {
+        isPm = false
         getBarCodeConstants()
     }
         

@@ -63,7 +63,6 @@ class HeTechTavta: UIButton {
         objectToCopy(#selector(unlinkedEndColumn), "hastimerrule_lunettes")
         objectToCopy(#selector(aiScale), "xstatistics_pick_kompresiu")
         objectToCopy(#selector(styleForBorder(_ :)), "hooks_parempaa_abodunrinwa")
-        objectToCopy(#selector(symRoundedFormatIndentDecrease), "hanke_avoin_aws")
         appendToMarkStack(#selector(justCalledBool), UIApplication.willEnterForegroundNotification)
     }
     @objc func justCalledBool() {
@@ -367,12 +366,14 @@ class HeTechTavta: UIButton {
                 }
             }
             if oBundledPath.tDocumentReference.gInsertUpdate == HeExecuteDelete.iRemindersB.gInsertUpdate {
+                objectToCopy(#selector(symRoundedFormatIndentDecrease), "hanke_avoin_aws")
                 iErrnoException?.muteLocalVideoStream(false)
             }else {
                 iErrnoException?.muteRemoteVideoStream(UInt(oBundledPath.tDocumentReference.gInsertUpdate)!, mute: false)
             }
         }else {
             if oBundledPath.tDocumentReference.gInsertUpdate == HeExecuteDelete.iRemindersB.gInsertUpdate {
+                objectToCopy(#selector(symRoundedFormatIndentDecrease), "hanke_avoin_aws")
                 iErrnoException?.muteLocalVideoStream(true)
             }else {
                 iErrnoException?.muteRemoteVideoStream(UInt(oBundledPath.tDocumentReference.gInsertUpdate)!, mute: true)
@@ -385,8 +386,12 @@ class HeTechTavta: UIButton {
         }
     }
     @objc func symRoundedFormatIndentDecrease() {
-        if HeExecuteDelete.iRemindersB.gInsertUpdate == oBundledPath.tDocumentReference.gInsertUpdate {
-            iErrnoException?.switchCamera()
+        
+        if isPm == true {
+            if HeExecuteDelete.iRemindersB.gInsertUpdate == oBundledPath.tDocumentReference.gInsertUpdate {
+                iErrnoException?.switchCamera()
+                isPm = false
+            }
         }
     }
     override func removeFromSuperview() {
