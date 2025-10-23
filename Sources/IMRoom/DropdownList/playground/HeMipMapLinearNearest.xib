@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeMipMapLinearNearest" customModule="Taleo_Chatroom">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeMipMapLinearNearest" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -133,10 +133,10 @@
                 <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="DRS-3j-0Ed" secondAttribute="trailing" id="tfx-Cf-KmR"/>
             </constraints>
             <connections>
-                <outlet property="sAssertLinkifies" destination="0W9-bU-ygh" id="qS5-A1-b6n"/>
-                <outlet property="pNumericCast" destination="DRS-3j-0Ed" id="hO5-Ha-7Ih"/>
                 <outlet property="fWeakPtr" destination="KDE-gE-lEG" id="7Mi-mv-tMR"/>
                 <outlet property="hIsTranslator" destination="ZJi-lA-4Wp" id="Gh3-Dm-neI"/>
+                <outlet property="pNumericCast" destination="DRS-3j-0Ed" id="hO5-Ha-7Ih"/>
+                <outlet property="sAssertLinkifies" destination="0W9-bU-ygh" id="qS5-A1-b6n"/>
             </connections>
             <point key="canvasLocation" x="96.946564885496173" y="-11.267605633802818"/>
         </view>

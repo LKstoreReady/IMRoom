@@ -8,20 +8,20 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeGeneratedClassName" customModule="Taleo_Chatroom">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeGeneratedClassName" customModule="IMRoom">
             <connections>
-                <outlet property="bOnUnlock" destination="mbA-Vg-Jvh" id="hyy-UT-xzR"/>
-                <outlet property="xPackagerAsset" destination="4EI-aq-t8o" id="NxB-eU-Gsl"/>
                 <outlet property="aNativeScale" destination="dob-qx-96z" id="12M-2w-gAO"/>
-                <outlet property="oBatchContext" destination="fBb-2f-la5" id="6zV-S7-1RL"/>
-                <outlet property="lChannelNumber" destination="DQD-Ic-8eh" id="T3D-fp-OQf"/>
-                <outlet property="xPasteboardType" destination="0PP-UU-l7y" id="Kf5-DT-Yyj"/>
+                <outlet property="bOnUnlock" destination="mbA-Vg-Jvh" id="hyy-UT-xzR"/>
                 <outlet property="cCoreLoc" destination="GUw-hO-wNb" id="vnf-to-cUA"/>
-                <outlet property="yGenerateKey" destination="x1a-Oe-WkN" id="W1N-7W-4gw"/>
-                <outlet property="wArrayObj" destination="U1C-yy-d2t" id="4Se-Vv-lAW"/>
                 <outlet property="dBounceIn" destination="ifJ-m8-qec" id="soJ-PN-VWx"/>
+                <outlet property="lChannelNumber" destination="DQD-Ic-8eh" id="T3D-fp-OQf"/>
+                <outlet property="oBatchContext" destination="fBb-2f-la5" id="6zV-S7-1RL"/>
                 <outlet property="sVolumeInc" destination="BWl-Vc-tpX" id="K39-ke-zhU"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wArrayObj" destination="U1C-yy-d2t" id="4Se-Vv-lAW"/>
+                <outlet property="xPackagerAsset" destination="4EI-aq-t8o" id="NxB-eU-Gsl"/>
+                <outlet property="xPasteboardType" destination="0PP-UU-l7y" id="Kf5-DT-Yyj"/>
+                <outlet property="yGenerateKey" destination="x1a-Oe-WkN" id="W1N-7W-4gw"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HePatPaint" customModule="Taleo_Chatroom">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HePatPaint" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="331" height="666"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -477,36 +477,36 @@
             </constraints>
             <size key="customSize" width="545" height="744"/>
             <connections>
-                <outlet property="fMockBlock" destination="SiD-dM-knf" id="xoI-VP-DrA"/>
-                <outlet property="sSetCity" destination="hHm-5R-Ly4" id="Fy0-T5-VmQ"/>
-                <outlet property="bCallableId" destination="ND5-qP-X0w" id="YWU-Yp-ldo"/>
-                <outlet property="zTagHead" destination="H40-LC-9EC" id="QuU-ee-8OL"/>
-                <outlet property="cAddCompression" destination="gQf-w4-NKt" id="kR6-6s-PqT"/>
-                <outlet property="sBuildScript" destination="PXJ-TK-jSP" id="1PR-ah-yAr"/>
-                <outlet property="qOutParam" destination="deR-Y7-6wb" id="9Mc-lZ-Qfn"/>
-                <outlet property="wActionLog" destination="j56-r3-5Ub" id="tly-3g-EeF"/>
-                <outlet property="kRestoreAll" destination="Vi5-oA-Ahf" id="dCd-eh-V9c"/>
-                <outlet property="gParticleTechnique" destination="cfA-xw-OPT" id="aIK-gm-0Nd"/>
                 <outlet property="aConcatLimit" destination="bT9-wj-hna" id="Q0E-k1-Gnu"/>
-                <outlet property="wContainOrientation" destination="SiE-dE-DK0" id="fl1-d9-vzt"/>
-                <outlet property="nDnString" destination="G7M-fe-K00" id="cec-PA-Z8z"/>
-                <outlet property="vMockTransaction" destination="T2P-HW-4R4" id="e9r-Yc-vdN"/>
-                <outlet property="qSavepoint" destination="2NW-oI-EZr" id="wQ7-NA-iQw"/>
-                <outlet property="rStaticIndices" destination="AFq-Uh-8ix" id="3WH-bC-2Fe"/>
+                <outlet property="bCallableId" destination="ND5-qP-X0w" id="YWU-Yp-ldo"/>
                 <outlet property="bThresholdFilter" destination="8Bf-ZE-z4p" id="ZNb-9R-Zh5"/>
-                <outlet property="qDotType" destination="vH4-U2-9RW" id="AQG-cA-c4Z"/>
-                <outlet property="dOptPset" destination="4W0-HQ-fqU" id="2gx-4a-f8E"/>
-                <outlet property="uJarContainer" destination="DQb-d2-fAb" id="pug-KL-9E0"/>
-                <outlet property="fReleaseTime" destination="oP1-jN-cGm" id="d8n-vh-bXI"/>
-                <outlet property="lMockPosition" destination="cPd-KV-bWt" id="nxE-aD-6OG"/>
-                <outlet property="hIsTranslator" destination="TWs-3r-x6u" id="lmi-Xk-1qu"/>
-                <outlet property="dAndYear" destination="6op-ry-YSY" id="qgX-eN-fob"/>
-                <outlet property="nFramebufferId" destination="AUQ-fF-65g" id="KuB-Es-6Q9"/>
+                <outlet property="cAddCompression" destination="gQf-w4-NKt" id="kR6-6s-PqT"/>
                 <outlet property="cRemoveTimeout" destination="26a-6Z-mDW" id="Nyx-4Q-Izn"/>
+                <outlet property="dAndYear" destination="6op-ry-YSY" id="qgX-eN-fob"/>
+                <outlet property="dOptPset" destination="4W0-HQ-fqU" id="2gx-4a-f8E"/>
                 <outlet property="dSearchState" destination="ldY-aN-j72" id="iH7-0j-Bu5"/>
                 <outlet property="eApiSidebar" destination="SYZ-O5-hqz" id="NPD-B6-eA2"/>
-                <outlet property="wTexturePacks" destination="Md9-Vz-LB4" id="j4u-4q-39V"/>
+                <outlet property="fMockBlock" destination="SiD-dM-knf" id="xoI-VP-DrA"/>
+                <outlet property="fReleaseTime" destination="oP1-jN-cGm" id="d8n-vh-bXI"/>
+                <outlet property="gParticleTechnique" destination="cfA-xw-OPT" id="aIK-gm-0Nd"/>
+                <outlet property="hIsTranslator" destination="TWs-3r-x6u" id="lmi-Xk-1qu"/>
+                <outlet property="kRestoreAll" destination="Vi5-oA-Ahf" id="dCd-eh-V9c"/>
                 <outlet property="lFillType" destination="m8g-8o-Wbe" id="gjk-Bv-IDz"/>
+                <outlet property="lMockPosition" destination="cPd-KV-bWt" id="nxE-aD-6OG"/>
+                <outlet property="nDnString" destination="G7M-fe-K00" id="cec-PA-Z8z"/>
+                <outlet property="nFramebufferId" destination="AUQ-fF-65g" id="KuB-Es-6Q9"/>
+                <outlet property="qDotType" destination="vH4-U2-9RW" id="AQG-cA-c4Z"/>
+                <outlet property="qOutParam" destination="deR-Y7-6wb" id="9Mc-lZ-Qfn"/>
+                <outlet property="qSavepoint" destination="2NW-oI-EZr" id="wQ7-NA-iQw"/>
+                <outlet property="rStaticIndices" destination="AFq-Uh-8ix" id="3WH-bC-2Fe"/>
+                <outlet property="sBuildScript" destination="PXJ-TK-jSP" id="1PR-ah-yAr"/>
+                <outlet property="sSetCity" destination="hHm-5R-Ly4" id="Fy0-T5-VmQ"/>
+                <outlet property="uJarContainer" destination="DQb-d2-fAb" id="pug-KL-9E0"/>
+                <outlet property="vMockTransaction" destination="T2P-HW-4R4" id="e9r-Yc-vdN"/>
+                <outlet property="wActionLog" destination="j56-r3-5Ub" id="tly-3g-EeF"/>
+                <outlet property="wContainOrientation" destination="SiE-dE-DK0" id="fl1-d9-vzt"/>
+                <outlet property="wTexturePacks" destination="Md9-Vz-LB4" id="j4u-4q-39V"/>
+                <outlet property="zTagHead" destination="H40-LC-9EC" id="QuU-ee-8OL"/>
             </connections>
             <point key="canvasLocation" x="437.40458015267171" y="185.21126760563382"/>
         </collectionViewCell>

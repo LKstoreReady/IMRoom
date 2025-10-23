@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeHandleStatementObjectMethodWithNoArg" customModule="Taleo_Chatroom">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeHandleStatementObjectMethodWithNoArg" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -221,11 +221,11 @@
             </constraints>
             <connections>
                 <outlet property="dAttributeClass" destination="R3F-lz-qvg" id="1IJ-1j-cGx"/>
-                <outlet property="qIsoFormatted" destination="iZm-Gx-F9v" id="V0I-fi-CuA"/>
                 <outlet property="eServiceValue" destination="j5W-9X-GtE" id="ydf-rZ-aLU"/>
-                <outlet property="sCiViews" destination="TDr-Ua-ca3" id="uXL-wH-dZm"/>
                 <outlet property="iRegisterNatives" destination="t8y-pH-yIj" id="6uo-8b-4IF"/>
                 <outlet property="kEvalEnabled" destination="zVY-nv-fzP" id="bbg-vY-lhu"/>
+                <outlet property="qIsoFormatted" destination="iZm-Gx-F9v" id="V0I-fi-CuA"/>
+                <outlet property="sCiViews" destination="TDr-Ua-ca3" id="uXL-wH-dZm"/>
                 <outlet property="vVidHeight" destination="hwp-aF-giX" id="zsz-RT-is8"/>
                 <outlet property="wUploadAvatar" destination="DyY-RE-qe0" id="4Ao-eW-gXq"/>
             </connections>
@@ -233,7 +233,7 @@
         </view>
     </objects>
     <resources>
-        <image name="workout_updatetype" width="48" height="22"/>
         <image name="slower_innstillingene_bloced" width="38" height="22"/>
+        <image name="workout_updatetype" width="48" height="22"/>
     </resources>
 </document>

@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeDispatchWorkItem" customModule="Taleo_Chatroom">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeDispatchWorkItem" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -491,13 +491,13 @@
             <connections>
                 <outlet property="backgroundView" destination="Dmw-rO-XsH" id="hYM-3D-CEn"/>
                 <outlet property="bgView" destination="D74-dU-BOA" id="W7S-Vb-5mC"/>
-                <outlet property="fourBtn" destination="gRc-I2-Zbl" id="W4H-BA-HzT"/>
-                <outlet property="kReplacedComponent" destination="17E-cs-n12" id="hMy-Ru-5sH"/>
-                <outlet property="rSwitchTab" destination="WD8-Zw-92w" id="8kM-Kt-hOq"/>
                 <outlet property="fNavigationResponse" destination="s2c-s7-c4P" id="OOt-oR-JBC"/>
-                <outlet property="sFasCrosshairs" destination="54A-N5-nkt" id="us4-iN-xfZ"/>
+                <outlet property="fourBtn" destination="gRc-I2-Zbl" id="W4H-BA-HzT"/>
                 <outlet property="hIsTranslator" destination="qPc-tz-poQ" id="uC7-C2-kcL"/>
+                <outlet property="kReplacedComponent" destination="17E-cs-n12" id="hMy-Ru-5sH"/>
                 <outlet property="oneBtn" destination="bZj-NO-vc3" id="QX1-nZ-BTV"/>
+                <outlet property="rSwitchTab" destination="WD8-Zw-92w" id="8kM-Kt-hOq"/>
+                <outlet property="sFasCrosshairs" destination="54A-N5-nkt" id="us4-iN-xfZ"/>
                 <outlet property="threeBtn" destination="r1H-1R-YLR" id="PTq-lI-WJ3"/>
                 <outlet property="topHeight" destination="Ef4-z2-EjU" id="CjV-MD-hH0"/>
                 <outlet property="twoBtn" destination="7t1-5r-7Ue" id="jt1-iX-fUD"/>

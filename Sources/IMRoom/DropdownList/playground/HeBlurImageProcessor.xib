@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeBlurImageProcessor" customModule="Taleo_Chatroom">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeBlurImageProcessor" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -135,11 +135,11 @@
                 <constraint firstItem="Fya-wi-Py4" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="wUD-PI-v5g"/>
             </constraints>
             <connections>
+                <outlet property="hIsTranslator" destination="Nsu-4K-JQJ" id="ayu-cx-OB3"/>
                 <outlet property="jPartitionBy" destination="Fya-wi-Py4" id="y1s-Ng-7qS"/>
                 <outlet property="sCookieCount" destination="oSK-Sc-RzE" id="Vd6-fy-n71"/>
-                <outlet property="ySrcSpace" destination="xET-64-Cac" id="47e-0D-uYo"/>
                 <outlet property="wLayoutFacilitator" destination="6kM-TW-8hP" id="CNC-fJ-nCv"/>
-                <outlet property="hIsTranslator" destination="Nsu-4K-JQJ" id="ayu-cx-OB3"/>
+                <outlet property="ySrcSpace" destination="xET-64-Cac" id="47e-0D-uYo"/>
             </connections>
             <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
         </view>

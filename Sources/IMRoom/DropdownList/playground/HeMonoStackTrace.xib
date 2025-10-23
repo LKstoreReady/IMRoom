@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeMonoStackTrace" customModule="Taleo_Chatroom">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeMonoStackTrace" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -323,22 +323,22 @@
                 <constraint firstItem="MCz-MA-PpP" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="XVM-x1-Mge"/>
             </constraints>
             <connections>
+                <outlet property="bControlActive" destination="DRJ-sI-Igl" id="Uu2-D4-1je"/>
+                <outlet property="cDayPeriod" destination="WRP-QB-XLu" id="ors-gf-oEK"/>
                 <outlet property="dGrowTables" destination="O9m-pP-mwP" id="gfv-Z4-4im"/>
                 <outlet property="eInitAnimation" destination="1C7-ST-6et" id="46H-8Z-XEN"/>
-                <outlet property="rLaunchScreen" destination="tOl-ur-lQQ" id="VJS-vn-tcu"/>
+                <outlet property="fIonConstruct" destination="Shd-sR-gAr" id="vxZ-g8-NLm"/>
+                <outlet property="hMypickerView" destination="cJ5-Rh-PtM" id="vqt-iK-7mk"/>
+                <outlet property="iIsIterating" destination="Qkv-Ff-5gm" id="SWq-xZ-4qE"/>
+                <outlet property="jLeavePage" destination="TYo-3u-Ivi" id="OcN-Fz-6dd"/>
+                <outlet property="kFixFlicker" destination="fyf-er-2Xg" id="FdE-27-npt"/>
+                <outlet property="kSetStudios" destination="rI9-i9-dCE" id="dSj-mb-fAZ"/>
+                <outlet property="lSurfaceHandler" destination="4VJ-ot-4sr" id="kIB-zf-Fww"/>
                 <outlet property="mComposeResources" destination="W2r-We-URe" id="D6t-Dw-zBa"/>
                 <outlet property="oTargetTimestamp" destination="FxF-E0-qCs" id="ubY-1J-IC4"/>
-                <outlet property="zSourceStream" destination="MCz-MA-PpP" id="aQ5-Hw-j2F"/>
-                <outlet property="kSetStudios" destination="rI9-i9-dCE" id="dSj-mb-fAZ"/>
-                <outlet property="jLeavePage" destination="TYo-3u-Ivi" id="OcN-Fz-6dd"/>
-                <outlet property="bControlActive" destination="DRJ-sI-Igl" id="Uu2-D4-1je"/>
-                <outlet property="lSurfaceHandler" destination="4VJ-ot-4sr" id="kIB-zf-Fww"/>
-                <outlet property="cDayPeriod" destination="WRP-QB-XLu" id="ors-gf-oEK"/>
-                <outlet property="fIonConstruct" destination="Shd-sR-gAr" id="vxZ-g8-NLm"/>
-                <outlet property="kFixFlicker" destination="fyf-er-2Xg" id="FdE-27-npt"/>
-                <outlet property="iIsIterating" destination="Qkv-Ff-5gm" id="SWq-xZ-4qE"/>
+                <outlet property="rLaunchScreen" destination="tOl-ur-lQQ" id="VJS-vn-tcu"/>
                 <outlet property="xActivationIndex" destination="uqG-wC-ErC" id="gEC-vB-VUR"/>
-                <outlet property="hMypickerView" destination="cJ5-Rh-PtM" id="vqt-iK-7mk"/>
+                <outlet property="zSourceStream" destination="MCz-MA-PpP" id="aQ5-Hw-j2F"/>
             </connections>
             <point key="canvasLocation" x="96.946564885496173" y="-11.267605633802818"/>
         </view>

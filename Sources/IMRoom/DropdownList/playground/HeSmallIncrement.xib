@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HeSmallIncrement" customModule="Taleo_Chatroom">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HeSmallIncrement" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="188" height="234"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -103,10 +103,10 @@
             <size key="customSize" width="188" height="234"/>
             <connections>
                 <outlet property="jHasChanges" destination="exX-NB-1WO" id="EqF-0w-K9X"/>
-                <outlet property="mAllSubscriptions" destination="uLQ-2O-E75" id="4DQ-eb-j7g"/>
-                <outlet property="rOutlinedSort" destination="Uxz-9Z-tUR" id="X4y-zc-jpc"/>
                 <outlet property="kUpdateAxis" destination="yzS-rG-O4s" id="FqR-s5-NJ2"/>
                 <outlet property="lExpressionList" destination="nOC-wL-1dv" id="Jkm-lR-Zvq"/>
+                <outlet property="mAllSubscriptions" destination="uLQ-2O-E75" id="4DQ-eb-j7g"/>
+                <outlet property="rOutlinedSort" destination="Uxz-9Z-tUR" id="X4y-zc-jpc"/>
             </connections>
             <point key="canvasLocation" x="235.11450381679387" y="53.521126760563384"/>
         </collectionViewCell>

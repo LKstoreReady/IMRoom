@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="95" id="KGk-i7-Jjw" customClass="HeOnCancel" customModule="Taleo_Chatroom">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="95" id="KGk-i7-Jjw" customClass="HeOnCancel" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="453" height="95"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -191,19 +191,19 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="xInstructLabel" destination="hfl-zV-F8Y" id="J7c-8W-fs1"/>
-                <outlet property="tEnableAttitude" destination="fmz-wq-8DD" id="EVU-DJ-k8w"/>
-                <outlet property="pInternalMode" destination="GOH-Az-Ylf" id="PGj-tc-Nde"/>
-                <outlet property="kLastColor" destination="cys-mg-SKI" id="4GU-f4-M0R"/>
                 <outlet property="iRoundSort" destination="nxv-r8-YjN" id="03P-PC-XZT"/>
-                <outlet property="vDisplayedValues" destination="Ljv-QD-RO5" id="UHW-qv-H4D"/>
-                <outlet property="tArticleID" destination="mWV-yf-BW6" id="4r6-My-1u5"/>
-                <outlet property="oWrappingView" destination="7HH-qW-PUb" id="R3e-UP-va4"/>
-                <outlet property="qDotType" destination="Q4X-h3-zFh" id="wCv-Zd-Mwk"/>
-                <outlet property="wEnabled" destination="LbG-af-dN3" id="Ov9-M0-plr"/>
-                <outlet property="ySubtitleStyle" destination="q8a-TP-5Zu" id="Gu0-V2-XXq"/>
-                <outlet property="wSetXfermode" destination="t8Z-ul-fy3" id="nDB-PA-Ysq"/>
+                <outlet property="kLastColor" destination="cys-mg-SKI" id="4GU-f4-M0R"/>
                 <outlet property="lFillType" destination="oAQ-8J-Jxk" id="WuF-Sm-TQz"/>
+                <outlet property="oWrappingView" destination="7HH-qW-PUb" id="R3e-UP-va4"/>
+                <outlet property="pInternalMode" destination="GOH-Az-Ylf" id="PGj-tc-Nde"/>
+                <outlet property="qDotType" destination="Q4X-h3-zFh" id="wCv-Zd-Mwk"/>
+                <outlet property="tArticleID" destination="mWV-yf-BW6" id="4r6-My-1u5"/>
+                <outlet property="tEnableAttitude" destination="fmz-wq-8DD" id="EVU-DJ-k8w"/>
+                <outlet property="vDisplayedValues" destination="Ljv-QD-RO5" id="UHW-qv-H4D"/>
+                <outlet property="wEnabled" destination="LbG-af-dN3" id="Ov9-M0-plr"/>
+                <outlet property="wSetXfermode" destination="t8Z-ul-fy3" id="nDB-PA-Ysq"/>
+                <outlet property="xInstructLabel" destination="hfl-zV-F8Y" id="J7c-8W-fs1"/>
+                <outlet property="ySubtitleStyle" destination="q8a-TP-5Zu" id="Gu0-V2-XXq"/>
             </connections>
             <point key="canvasLocation" x="231.29770992366412" y="1.0563380281690142"/>
         </tableViewCell>

@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="HeNativeEvent" customModule="Taleo_Chatroom">
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="U6b-Vx-4bR" customClass="HeNativeEvent" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="479" height="104"/>
             <autoresizingMask key="autoresizingMask"/>
             <subviews>
@@ -1069,22 +1069,22 @@
                 <constraint firstAttribute="bottom" secondItem="P6c-Qv-dOK" secondAttribute="bottom" id="t99-ss-ek7"/>
             </constraints>
             <connections>
-                <outlet property="fLinkingDescription" destination="fjN-s1-wui" id="J8E-Ay-v57"/>
-                <outlet property="xSingleRoot" destination="zV0-xT-LEK" id="S4c-Ea-2Ya"/>
                 <outlet property="aFasMicrochip" destination="3ta-DF-of3" id="nxU-Pa-61Z"/>
-                <outlet property="nCanvasBitmap" destination="Vf6-g8-s9r" id="AUs-TH-ycE"/>
                 <outlet property="cSignalCount" destination="PCa-6c-Dzp" id="cHW-tC-l6F"/>
-                <outlet property="vProximityIndexing" destination="lbY-zV-teL" id="11h-Ba-39O"/>
-                <outlet property="hRetryInterval" destination="DQR-zv-XOR" id="hIx-6i-WIP"/>
+                <outlet property="fLinkingDescription" destination="fjN-s1-wui" id="J8E-Ay-v57"/>
                 <outlet property="gBooleanValue" destination="ag3-H5-iac" id="Gqw-QX-qi8"/>
+                <outlet property="hRetryInterval" destination="DQR-zv-XOR" id="hIx-6i-WIP"/>
                 <outlet property="lCreateRecomposer" destination="nSC-y2-EaQ" id="Bt9-wE-LT4"/>
+                <outlet property="nCanvasBitmap" destination="Vf6-g8-s9r" id="AUs-TH-ycE"/>
+                <outlet property="vProximityIndexing" destination="lbY-zV-teL" id="11h-Ba-39O"/>
+                <outlet property="xSingleRoot" destination="zV0-xT-LEK" id="S4c-Ea-2Ya"/>
             </connections>
             <point key="canvasLocation" x="251.14503816793894" y="71.83098591549296"/>
         </collectionReusableView>
     </objects>
     <resources>
-        <image name="overtype_solide_guessed" width="30" height="30"/>
         <image name="ifsingle_semicolons" width="28" height="28"/>
+        <image name="overtype_solide_guessed" width="30" height="30"/>
         <image name="wallis_revents" width="28" height="28"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

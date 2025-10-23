@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -9,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeGitChangedFile" customModule="Taleo_Chatroom">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeGitChangedFile" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -77,8 +78,8 @@
                 <constraint firstAttribute="bottom" secondItem="ddT-wC-rot" secondAttribute="bottom" id="tIk-qB-SXr"/>
             </constraints>
             <connections>
-                <outlet property="sSetCity" destination="Rm5-Pi-u05" id="BYo-rx-2E1"/>
                 <outlet property="hIsTranslator" destination="HHP-GB-oiF" id="azC-OF-EWV"/>
+                <outlet property="sSetCity" destination="Rm5-Pi-u05" id="BYo-rx-2E1"/>
             </connections>
             <point key="canvasLocation" x="96.946564885496173" y="-11.267605633802818"/>
         </view>

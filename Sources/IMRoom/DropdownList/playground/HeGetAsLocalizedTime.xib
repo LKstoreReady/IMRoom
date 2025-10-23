@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeGetAsLocalizedTime" customModule="Taleo_Chatroom">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeGetAsLocalizedTime" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -93,12 +93,12 @@
                 <constraint firstItem="mSD-5c-NNf" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="64" id="UIu-y2-ZG6"/>
             </constraints>
             <connections>
-                <outlet property="sBeautyTpye" destination="yOv-wx-YlO" id="Ls1-hN-qDW"/>
-                <outlet property="sSetCity" destination="PIv-yl-35Z" id="FPD-On-5Au"/>
                 <outlet property="jPartitionBy" destination="mSD-5c-NNf" id="0eM-CK-KBG"/>
                 <outlet property="qDotType" destination="6CF-tQ-Qph" id="Yoy-dZ-Fd6"/>
-                <outlet property="yVelocitySlider" destination="FTX-FM-eZ1" id="MVn-Lc-4YJ"/>
+                <outlet property="sBeautyTpye" destination="yOv-wx-YlO" id="Ls1-hN-qDW"/>
+                <outlet property="sSetCity" destination="PIv-yl-35Z" id="FPD-On-5Au"/>
                 <outlet property="uPerformThrow" destination="HAh-S1-euM" id="Yzq-0j-ZIx"/>
+                <outlet property="yVelocitySlider" destination="FTX-FM-eZ1" id="MVn-Lc-4YJ"/>
             </connections>
             <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
         </view>

@@ -9,7 +9,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeMaxScript" customModule="Taleo_Chatroom">
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeMaxScript" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -82,10 +82,10 @@
                             <rect key="frame" x="20" y="53" width="353" height="28"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FXA-GU-HzJ">
-                                    <rect key="frame" x="0.0" y="0.0" width="468.66666666666669" height="28"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="441" height="28"/>
                                     <subviews>
                                         <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBu-02-ILK">
-                                            <rect key="frame" x="44.666666666666671" y="0.0" width="100.00000000000001" height="28"/>
+                                            <rect key="frame" x="20" y="0.0" width="100" height="28"/>
                                             <color key="backgroundColor" red="0.80392156859999997" green="0.52941176469999995" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="100" id="qjQ-Qt-lZ5"/>
@@ -112,7 +112,7 @@
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LEs-uH-WzZ">
-                                            <rect key="frame" x="152.66666666666666" y="0.0" width="100" height="28"/>
+                                            <rect key="frame" x="128" y="0.0" width="97" height="28"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="100" id="rv5-Ij-F0m"/>
                                             </constraints>
@@ -138,7 +138,7 @@
                                             </connections>
                                         </button>
                                         <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zqd-6N-hHl">
-                                            <rect key="frame" x="260.66666666666669" y="0.0" width="100" height="28"/>
+                                            <rect key="frame" x="233" y="0.0" width="100" height="28"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="100" id="ETx-sO-1IC"/>
                                             </constraints>
@@ -164,7 +164,7 @@
                                             </connections>
                                         </button>
                                         <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NIt-8r-yMJ">
-                                            <rect key="frame" x="368.66666666666669" y="0.0" width="100" height="28"/>
+                                            <rect key="frame" x="341" y="0.0" width="100" height="28"/>
                                             <subviews>
                                                 <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsp-cM-tBu">
                                                     <rect key="frame" x="0.0" y="0.0" width="100" height="28"/>
@@ -258,18 +258,18 @@
                 <constraint firstAttribute="bottom" secondItem="WYQ-Cj-41y" secondAttribute="bottom" id="gPQ-7m-koj"/>
             </constraints>
             <connections>
-                <outlet property="kLaunchScreen" destination="VGF-0g-NLy" id="qDC-2L-zjV"/>
-                <outlet property="wForceCancel" destination="Ype-HH-lva" id="X8n-95-Gmm"/>
+                <outlet property="aInfoGlobal" destination="LEs-uH-WzZ" id="mV2-dV-AUA"/>
+                <outlet property="bControlActive" destination="Pwc-Qd-whO" id="PL9-vG-UGQ"/>
                 <outlet property="dBootstrapVersion" destination="JBu-02-ILK" id="SoV-vW-PVb"/>
+                <outlet property="fValidChars" destination="xvK-Gs-umj" id="NhE-mZ-OSZ"/>
+                <outlet property="hIsTranslator" destination="c0y-T3-OD0" id="nDG-2D-ShL"/>
                 <outlet property="iHasMany" destination="dsp-cM-tBu" id="SwR-Gm-1ag"/>
                 <outlet property="jGlPause" destination="mWK-sn-Nu5" id="UUc-rG-Wjy"/>
-                <outlet property="aInfoGlobal" destination="LEs-uH-WzZ" id="mV2-dV-AUA"/>
-                <outlet property="zCddbPath" destination="Zqd-6N-hHl" id="hbF-Vh-dPD"/>
-                <outlet property="fValidChars" destination="xvK-Gs-umj" id="NhE-mZ-OSZ"/>
+                <outlet property="kLaunchScreen" destination="VGF-0g-NLy" id="qDC-2L-zjV"/>
+                <outlet property="wForceCancel" destination="Ype-HH-lva" id="X8n-95-Gmm"/>
                 <outlet property="wLayoutFacilitator" destination="ueW-AU-hgk" id="7DK-T5-FXw"/>
                 <outlet property="xWasCancelled" destination="WYQ-Cj-41y" id="w66-zp-JXz"/>
-                <outlet property="bControlActive" destination="Pwc-Qd-whO" id="PL9-vG-UGQ"/>
-                <outlet property="hIsTranslator" destination="c0y-T3-OD0" id="nDG-2D-ShL"/>
+                <outlet property="zCddbPath" destination="Zqd-6N-hHl" id="hbF-Vh-dPD"/>
             </connections>
             <point key="canvasLocation" x="96.946564885496173" y="-11.267605633802818"/>
         </view>

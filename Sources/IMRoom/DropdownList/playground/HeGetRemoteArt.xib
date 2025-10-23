@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HeGetRemoteArt" customModule="Taleo_Chatroom">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HeGetRemoteArt" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="218" height="254"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -861,36 +861,36 @@
             <size key="customSize" width="218" height="254"/>
             <connections>
                 <outlet property="IsLockBtn" destination="WLh-9q-pSI" id="uOH-u4-PKO"/>
-                <outlet property="tEnableAttitude" destination="V3d-xj-aEy" id="9P6-2j-md7"/>
                 <outlet property="cUniqueData" destination="5MR-dd-trt" id="eVG-Pn-Sh3"/>
-                <outlet property="sSetCity" destination="oyH-Pf-g5Y" id="A3w-0w-w1t"/>
+                <outlet property="dFromValues" destination="Jo0-Sh-hd6" id="llj-A6-bdZ"/>
+                <outlet property="fBackupRequest" destination="RxG-DZ-OOl" id="DO5-6r-Yud"/>
+                <outlet property="fTextShadow" destination="iva-Ph-NaB" id="be3-Mb-NKa"/>
+                <outlet property="iBiReply" destination="R0s-aU-uX2" id="Jmn-T2-9CH"/>
+                <outlet property="iScriptDelegate" destination="72F-8Q-Fwb" id="x40-k2-JQz"/>
+                <outlet property="jTooltipFrame" destination="Xcy-U5-rK4" id="37R-No-AN5"/>
+                <outlet property="mCameraSorter" destination="QRc-Ow-naC" id="lV9-b7-mHI"/>
+                <outlet property="nMatchColumn" destination="50X-Nx-TT4" id="4RU-fP-YUK"/>
+                <outlet property="nTexPaths" destination="gAc-CU-F2u" id="85F-Hb-6FZ"/>
                 <outlet property="oFailedMigration" destination="ZQC-Qc-pfM" id="GOE-nI-fwZ"/>
                 <outlet property="pClientExpiration" destination="nMp-CU-3t7" id="g5k-KZ-PPH"/>
-                <outlet property="fTextShadow" destination="iva-Ph-NaB" id="be3-Mb-NKa"/>
-                <outlet property="yInitialImage" destination="p5J-CT-51y" id="lrO-wJ-UUB"/>
-                <outlet property="nTexPaths" destination="gAc-CU-F2u" id="85F-Hb-6FZ"/>
-                <outlet property="zSnapData" destination="85L-xh-pf3" id="RyP-wh-Mbw"/>
-                <outlet property="nMatchColumn" destination="50X-Nx-TT4" id="4RU-fP-YUK"/>
                 <outlet property="qDotType" destination="TzZ-03-qPA" id="yIa-Kv-fas"/>
-                <outlet property="rSetNative" destination="ONu-N9-kgw" id="d9B-3z-MnW"/>
-                <outlet property="vFocusedValue" destination="Add-N8-VFN" id="4TZ-8z-Uu9"/>
-                <outlet property="mCameraSorter" destination="QRc-Ow-naC" id="lV9-b7-mHI"/>
-                <outlet property="iBiReply" destination="R0s-aU-uX2" id="Jmn-T2-9CH"/>
-                <outlet property="vVidHeight" destination="Lb4-Nt-Pqm" id="dWO-0w-nfL"/>
-                <outlet property="ySharedColor" destination="hRb-E5-erz" id="enX-iq-wlT"/>
-                <outlet property="jTooltipFrame" destination="Xcy-U5-rK4" id="37R-No-AN5"/>
-                <outlet property="fBackupRequest" destination="RxG-DZ-OOl" id="DO5-6r-Yud"/>
-                <outlet property="dFromValues" destination="Jo0-Sh-hd6" id="llj-A6-bdZ"/>
-                <outlet property="iScriptDelegate" destination="72F-8Q-Fwb" id="x40-k2-JQz"/>
-                <outlet property="uExitedView" destination="EtM-PT-717" id="PJ7-O8-CPx"/>
                 <outlet property="qExoticStore" destination="SEv-Cj-wjQ" id="D4T-gl-peB"/>
+                <outlet property="rSetNative" destination="ONu-N9-kgw" id="d9B-3z-MnW"/>
+                <outlet property="sSetCity" destination="oyH-Pf-g5Y" id="A3w-0w-w1t"/>
+                <outlet property="tEnableAttitude" destination="V3d-xj-aEy" id="9P6-2j-md7"/>
+                <outlet property="uExitedView" destination="EtM-PT-717" id="PJ7-O8-CPx"/>
+                <outlet property="vFocusedValue" destination="Add-N8-VFN" id="4TZ-8z-Uu9"/>
+                <outlet property="vVidHeight" destination="Lb4-Nt-Pqm" id="dWO-0w-nfL"/>
+                <outlet property="yInitialImage" destination="p5J-CT-51y" id="lrO-wJ-UUB"/>
+                <outlet property="ySharedColor" destination="hRb-E5-erz" id="enX-iq-wlT"/>
+                <outlet property="zSnapData" destination="85L-xh-pf3" id="RyP-wh-Mbw"/>
             </connections>
             <point key="canvasLocation" x="258.01526717557249" y="39.436619718309863"/>
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="juhtklahvid_streamdrained_cuidadosamente" width="16" height="9"/>
         <image name="StoryHubSendIcon" width="25" height="25.333333969116211"/>
+        <image name="juhtklahvid_streamdrained_cuidadosamente" width="16" height="9"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

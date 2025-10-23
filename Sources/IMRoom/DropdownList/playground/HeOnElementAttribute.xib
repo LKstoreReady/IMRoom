@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeOnElementAttribute" customModule="Taleo_Chatroom">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeOnElementAttribute" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -511,20 +511,20 @@
                 <constraint firstItem="ccb-2V-PcD" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.25" id="tpr-aY-NAT"/>
             </constraints>
             <connections>
-                <outlet property="fDeclarationBlock" destination="WP1-J8-Ilf" id="Qwb-bv-fbg"/>
-                <outlet property="uRequestSpeakerphone" destination="0V5-um-aRI" id="rkw-JS-kPg"/>
-                <outlet property="mAllConfigurations" destination="hlM-4f-Kz8" id="qGB-m4-gAv"/>
-                <outlet property="wGlOrtho" destination="94D-Lq-eOD" id="5ZY-NT-ubb"/>
-                <outlet property="dInScope" destination="VgM-wQ-nbn" id="ce5-FY-MhE"/>
-                <outlet property="jPartitionBy" destination="9W7-Cg-5y7" id="lde-nI-NXf"/>
-                <outlet property="eCalendarID" destination="7xu-Iw-756" id="zYO-fF-jAZ"/>
-                <outlet property="dContactAddress" destination="pl9-OL-h25" id="97O-YS-nRG"/>
                 <outlet property="bErrorBlock" destination="pkH-I8-NYK" id="5f5-Bn-awd"/>
-                <outlet property="hBindingExtensions" destination="9m3-Gr-qZN" id="cAR-dj-bZb"/>
-                <outlet property="uGroupCell" destination="ccb-2V-PcD" id="GKL-h5-9OJ"/>
-                <outlet property="wFindStyle" destination="VZb-Pd-F6C" id="38t-22-Lld"/>
+                <outlet property="dContactAddress" destination="pl9-OL-h25" id="97O-YS-nRG"/>
+                <outlet property="dInScope" destination="VgM-wQ-nbn" id="ce5-FY-MhE"/>
+                <outlet property="eCalendarID" destination="7xu-Iw-756" id="zYO-fF-jAZ"/>
+                <outlet property="fDeclarationBlock" destination="WP1-J8-Ilf" id="Qwb-bv-fbg"/>
                 <outlet property="fRedrawCallout" destination="NMR-bT-Ei9" id="lJf-VC-4oC"/>
                 <outlet property="gFullUrl" destination="c66-zV-p86" id="Ali-EX-GLY"/>
+                <outlet property="hBindingExtensions" destination="9m3-Gr-qZN" id="cAR-dj-bZb"/>
+                <outlet property="jPartitionBy" destination="9W7-Cg-5y7" id="lde-nI-NXf"/>
+                <outlet property="mAllConfigurations" destination="hlM-4f-Kz8" id="qGB-m4-gAv"/>
+                <outlet property="uGroupCell" destination="ccb-2V-PcD" id="GKL-h5-9OJ"/>
+                <outlet property="uRequestSpeakerphone" destination="0V5-um-aRI" id="rkw-JS-kPg"/>
+                <outlet property="wFindStyle" destination="VZb-Pd-F6C" id="38t-22-Lld"/>
+                <outlet property="wGlOrtho" destination="94D-Lq-eOD" id="5ZY-NT-ubb"/>
                 <outlet property="wLuminanceTexture" destination="7nB-KY-NhH" id="uyg-Um-BEw"/>
             </connections>
             <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>

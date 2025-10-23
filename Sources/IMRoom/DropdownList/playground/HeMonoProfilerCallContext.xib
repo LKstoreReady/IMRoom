@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HeMonoProfilerCallContext" customModule="Taleo_Chatroom">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="HeMonoProfilerCallContext" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="42" height="46"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -97,9 +97,9 @@
             </constraints>
             <size key="customSize" width="38" height="69"/>
             <connections>
-                <outlet property="tEnableAttitude" destination="Afz-on-VQt" id="sLn-is-QBN"/>
-                <outlet property="hContextRevision" destination="d0B-iX-VQn" id="Mlj-kX-Yof"/>
                 <outlet property="aFloatContainer" destination="7Jc-k5-ae8" id="ScJ-cJ-5H2"/>
+                <outlet property="hContextRevision" destination="d0B-iX-VQn" id="Mlj-kX-Yof"/>
+                <outlet property="tEnableAttitude" destination="Afz-on-VQt" id="sLn-is-QBN"/>
                 <outlet property="vGetDictionary" destination="2A1-r6-s00" id="LY9-a3-EAo"/>
             </connections>
             <point key="canvasLocation" x="120.61068702290076" y="-26.056338028169016"/>

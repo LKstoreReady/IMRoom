@@ -2,13 +2,14 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeDepthBars" customModule="Taleo_Chatroom">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeDepthBars" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -157,14 +158,14 @@
                 <constraint firstAttribute="trailing" secondItem="D0b-Km-lkZ" secondAttribute="trailing" id="cJp-tl-ASQ"/>
             </constraints>
             <connections>
-                <outlet property="vLoadPromise" destination="sM0-hT-Xem" id="uGL-XL-fKM"/>
                 <outlet property="iLoaderFiles" destination="jqe-y6-32S" id="aBX-R4-3rV"/>
                 <outlet property="kSimulateIncoming" destination="6HE-6y-Fh3" id="TaZ-Gx-GTT"/>
-                <outlet property="pIndexText" destination="rii-IQ-NdK" id="UKP-LX-koH"/>
                 <outlet property="mSelectDevice" destination="qpG-Li-tyx" id="top-h3-e1I"/>
-                <outlet property="yFabSearchengin" destination="ABV-sV-O4b" id="Lnr-Vu-Lg2"/>
+                <outlet property="pIndexText" destination="rii-IQ-NdK" id="UKP-LX-koH"/>
+                <outlet property="vLoadPromise" destination="sM0-hT-Xem" id="uGL-XL-fKM"/>
                 <outlet property="vModificationKey" destination="pQY-qh-tMI" id="l2A-yO-CqC"/>
                 <outlet property="wDesignData" destination="WhJ-Qs-c9u" id="Twu-tp-sZd"/>
+                <outlet property="yFabSearchengin" destination="ABV-sV-O4b" id="Lnr-Vu-Lg2"/>
             </connections>
             <point key="canvasLocation" x="130.53435114503816" y="-11.267605633802818"/>
         </view>

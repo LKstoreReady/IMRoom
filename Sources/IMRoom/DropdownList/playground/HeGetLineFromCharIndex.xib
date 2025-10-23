@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -9,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="190" id="KGk-i7-Jjw" customClass="HeGetLineFromCharIndex" customModule="Taleo_Chatroom">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="190" id="KGk-i7-Jjw" customClass="HeGetLineFromCharIndex" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="362" height="190"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -84,9 +85,9 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <connections>
-                <outlet property="mMaterialCommand" destination="ybs-mf-rqj" id="bqA-qU-6Du"/>
-                <outlet property="jDirectoryUri" destination="SsY-2a-zrU" id="ORc-Ma-aUc"/>
                 <outlet property="hIsTranslator" destination="feL-W8-w3s" id="Wp1-83-diF"/>
+                <outlet property="jDirectoryUri" destination="SsY-2a-zrU" id="ORc-Ma-aUc"/>
+                <outlet property="mMaterialCommand" destination="ybs-mf-rqj" id="bqA-qU-6Du"/>
             </connections>
             <point key="canvasLocation" x="146.56488549618319" y="40.140845070422536"/>
         </tableViewCell>

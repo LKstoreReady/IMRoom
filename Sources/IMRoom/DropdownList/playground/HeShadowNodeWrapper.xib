@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeShadowNodeWrapper" customModule="Taleo_Chatroom">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeShadowNodeWrapper" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="421"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -196,11 +196,11 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
-                <outlet property="lTimedWith" destination="0mc-I1-4MO" id="Rfj-Nr-C8S"/>
                 <outlet property="bControlActive" destination="XkX-AK-znR" id="Toq-A6-5d7"/>
-                <outlet property="lMockPosition" destination="qrZ-kL-eSF" id="Qb6-uL-iac"/>
-                <outlet property="rAssertExplanation" destination="mUr-a6-gBk" id="Pow-qd-6RK"/>
                 <outlet property="cDecodeState" destination="t8e-7H-ZJF" id="Acw-ya-HYi"/>
+                <outlet property="lMockPosition" destination="qrZ-kL-eSF" id="Qb6-uL-iac"/>
+                <outlet property="lTimedWith" destination="0mc-I1-4MO" id="Rfj-Nr-C8S"/>
+                <outlet property="rAssertExplanation" destination="mUr-a6-gBk" id="Pow-qd-6RK"/>
                 <outlet property="rCanOpen" destination="aij-YP-afG" id="f5t-eM-Bbp"/>
             </connections>
             <point key="canvasLocation" x="130.53435114503816" y="-163.02816901408451"/>

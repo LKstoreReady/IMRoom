@@ -9,52 +9,52 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeImagePoissonBlendFilter" customModule="Taleo_Chatroom">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeImagePoissonBlendFilter" customModule="IMRoom">
             <connections>
-                <outlet property="eRowInfo" destination="PYz-ka-tae" id="7Go-W2-LEz"/>
-                <outlet property="rChannelPressure" destination="1Nn-Sa-yFI" id="siX-vY-9Hs"/>
-                <outlet property="jForName" destination="yYQ-b0-tLu" id="8PR-4X-Qyc"/>
-                <outlet property="dFocusableMode" destination="7Je-ce-Alq" id="Hpk-4B-woy"/>
-                <outlet property="pSharpTty" destination="RRT-Xb-wG5" id="xzq-XI-eJl"/>
-                <outlet property="sKodiVersion" destination="1PY-HL-Zb3" id="dD6-ud-y5D"/>
-                <outlet property="gRenderWrapped" destination="1ax-vN-b6I" id="3il-ek-71V"/>
-                <outlet property="vFasGrin" destination="MRd-SK-O1z" id="i42-BJ-BSZ"/>
-                <outlet property="lEvaluateError" destination="XEP-Ly-LuP" id="gTb-pc-bc5"/>
-                <outlet property="eProxyId" destination="leb-Jy-UB7" id="Pbq-s5-yFU"/>
-                <outlet property="zExtendsType" destination="p9v-Sn-p0V" id="Mzt-Mb-3Ar"/>
-                <outlet property="kPaymentAddress" destination="Xzv-1R-6NU" id="spx-cA-59T"/>
-                <outlet property="fNotStat" destination="OGa-76-4a9" id="t12-Oe-wKk"/>
-                <outlet property="wAudioCodec" destination="sSO-SH-zDT" id="IVk-Zi-FiR"/>
-                <outlet property="bOldPrepend" destination="nIV-JP-uPH" id="Vi0-2u-77f"/>
-                <outlet property="mCipherIndex" destination="cYZ-vg-Hh0" id="GJA-5g-4uc"/>
-                <outlet property="uTruncatedEmail" destination="p5J-j8-tip" id="Lu2-zi-1iF"/>
-                <outlet property="bSetStrikethrough" destination="kS8-QG-csC" id="S98-cd-Mtx"/>
-                <outlet property="vDesignerHost" destination="lqV-GF-X1G" id="dIX-Xr-SaE"/>
-                <outlet property="xLatchList" destination="LEO-lG-8IV" id="sOV-TD-hoV"/>
-                <outlet property="kParseDirectory" destination="Fvr-uq-7RN" id="4oe-I1-VX7"/>
-                <outlet property="jRenerablePool" destination="b5l-gL-eXv" id="gnP-A5-yVZ"/>
-                <outlet property="vMenuGroup" destination="vcn-qK-VWF" id="dwH-0a-Haq"/>
-                <outlet property="fDiscoveryResults" destination="1fC-7Z-9SN" id="bOj-oD-Gvc"/>
-                <outlet property="bErrorBlock" destination="JOO-pA-Sat" id="6jq-3e-Bnc"/>
-                <outlet property="kBitDepth" destination="8Im-h1-9wK" id="7H1-N4-mk1"/>
-                <outlet property="jExactLength" destination="dx2-dm-Mu9" id="Q38-gM-hEd"/>
-                <outlet property="fValidChars" destination="Zct-zP-5vX" id="Z4u-6X-5fJ"/>
-                <outlet property="eCopyImage" destination="BLA-0l-e8G" id="4GN-hv-ej1"/>
-                <outlet property="tFasTrademark" destination="wQe-ew-oTA" id="Kwf-mC-XeM"/>
-                <outlet property="gRefreshFinish" destination="n40-Mn-XeZ" id="TKX-Oa-GQS"/>
-                <outlet property="mHideConversions" destination="Yrt-qT-0fo" id="p69-Jg-jmG"/>
-                <outlet property="sCurrentTouches" destination="f4O-nB-hCe" id="mPK-4r-gKf"/>
-                <outlet property="uPermClass" destination="904-LK-Iw9" id="PWG-D9-uKH"/>
-                <outlet property="uValueParam" destination="goZ-XJ-QfH" id="Q1N-XQ-jIY"/>
-                <outlet property="fShortNames" destination="GBa-69-3fP" id="Wth-Pu-h80"/>
-                <outlet property="uStringTokens" destination="UPC-Re-cd2" id="D9A-9L-RNj"/>
-                <outlet property="lRgpicmExclude" destination="hmx-mb-0Hf" id="ftT-kb-9Ys"/>
                 <outlet property="bControlActive" destination="56N-lc-uey" id="xpM-wW-gwQ"/>
+                <outlet property="bErrorBlock" destination="JOO-pA-Sat" id="6jq-3e-Bnc"/>
+                <outlet property="bOldPrepend" destination="nIV-JP-uPH" id="Vi0-2u-77f"/>
+                <outlet property="bSetStrikethrough" destination="kS8-QG-csC" id="S98-cd-Mtx"/>
                 <outlet property="bThemovieDB" destination="Ddf-0D-NeT" id="FYb-SF-O1f"/>
-                <outlet property="gOperationIn" destination="Vuj-Y1-9Hz" id="Qr4-XG-KLC"/>
                 <outlet property="cSpecializedSweep" destination="zeb-DR-Pil" id="I20-ez-R1t"/>
-                <outlet property="zPossiblePrefix" destination="HJB-69-bOS" id="tGs-cU-kDx"/>
+                <outlet property="dFocusableMode" destination="7Je-ce-Alq" id="Hpk-4B-woy"/>
+                <outlet property="eCopyImage" destination="BLA-0l-e8G" id="4GN-hv-ej1"/>
+                <outlet property="eProxyId" destination="leb-Jy-UB7" id="Pbq-s5-yFU"/>
+                <outlet property="eRowInfo" destination="PYz-ka-tae" id="7Go-W2-LEz"/>
+                <outlet property="fDiscoveryResults" destination="1fC-7Z-9SN" id="bOj-oD-Gvc"/>
+                <outlet property="fNotStat" destination="OGa-76-4a9" id="t12-Oe-wKk"/>
+                <outlet property="fShortNames" destination="GBa-69-3fP" id="Wth-Pu-h80"/>
+                <outlet property="fValidChars" destination="Zct-zP-5vX" id="Z4u-6X-5fJ"/>
+                <outlet property="gOperationIn" destination="Vuj-Y1-9Hz" id="Qr4-XG-KLC"/>
+                <outlet property="gRefreshFinish" destination="n40-Mn-XeZ" id="TKX-Oa-GQS"/>
+                <outlet property="gRenderWrapped" destination="1ax-vN-b6I" id="3il-ek-71V"/>
+                <outlet property="jExactLength" destination="dx2-dm-Mu9" id="Q38-gM-hEd"/>
+                <outlet property="jForName" destination="yYQ-b0-tLu" id="8PR-4X-Qyc"/>
+                <outlet property="jRenerablePool" destination="b5l-gL-eXv" id="gnP-A5-yVZ"/>
+                <outlet property="kBitDepth" destination="8Im-h1-9wK" id="7H1-N4-mk1"/>
+                <outlet property="kParseDirectory" destination="Fvr-uq-7RN" id="4oe-I1-VX7"/>
+                <outlet property="kPaymentAddress" destination="Xzv-1R-6NU" id="spx-cA-59T"/>
+                <outlet property="lEvaluateError" destination="XEP-Ly-LuP" id="gTb-pc-bc5"/>
+                <outlet property="lRgpicmExclude" destination="hmx-mb-0Hf" id="ftT-kb-9Ys"/>
+                <outlet property="mCipherIndex" destination="cYZ-vg-Hh0" id="GJA-5g-4uc"/>
+                <outlet property="mHideConversions" destination="Yrt-qT-0fo" id="p69-Jg-jmG"/>
+                <outlet property="pSharpTty" destination="RRT-Xb-wG5" id="xzq-XI-eJl"/>
+                <outlet property="rChannelPressure" destination="1Nn-Sa-yFI" id="siX-vY-9Hs"/>
+                <outlet property="sCurrentTouches" destination="f4O-nB-hCe" id="mPK-4r-gKf"/>
+                <outlet property="sKodiVersion" destination="1PY-HL-Zb3" id="dD6-ud-y5D"/>
+                <outlet property="tFasTrademark" destination="wQe-ew-oTA" id="Kwf-mC-XeM"/>
+                <outlet property="uPermClass" destination="904-LK-Iw9" id="PWG-D9-uKH"/>
+                <outlet property="uStringTokens" destination="UPC-Re-cd2" id="D9A-9L-RNj"/>
+                <outlet property="uTruncatedEmail" destination="p5J-j8-tip" id="Lu2-zi-1iF"/>
+                <outlet property="uValueParam" destination="goZ-XJ-QfH" id="Q1N-XQ-jIY"/>
+                <outlet property="vDesignerHost" destination="lqV-GF-X1G" id="dIX-Xr-SaE"/>
+                <outlet property="vFasGrin" destination="MRd-SK-O1z" id="i42-BJ-BSZ"/>
+                <outlet property="vMenuGroup" destination="vcn-qK-VWF" id="dwH-0a-Haq"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="wAudioCodec" destination="sSO-SH-zDT" id="IVk-Zi-FiR"/>
+                <outlet property="xLatchList" destination="LEO-lG-8IV" id="sOV-TD-hoV"/>
+                <outlet property="zExtendsType" destination="p9v-Sn-p0V" id="Mzt-Mb-3Ar"/>
+                <outlet property="zPossiblePrefix" destination="HJB-69-bOS" id="tGs-cU-kDx"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

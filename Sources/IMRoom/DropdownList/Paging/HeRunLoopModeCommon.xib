@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -9,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeRunLoopModeCommon" customModule="Taleo_Chatroom">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeRunLoopModeCommon" customModule="IMRoom">
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -390,25 +391,25 @@
                 <constraint firstItem="Nue-JB-UKI" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.86" id="SiU-kv-ive"/>
             </constraints>
             <connections>
-                <outlet property="pLocalRect" destination="In8-cJ-mvT" id="Plg-Re-Wlv"/>
-                <outlet property="wHostBean" destination="PdH-zf-PeR" id="v7t-SS-dmF"/>
-                <outlet property="hRequestObj" destination="nJT-rY-76b" id="XZJ-Jr-N3o"/>
-                <outlet property="lGlyphPage" destination="GTm-30-F4N" id="ctf-sf-agZ"/>
-                <outlet property="cCleanupFunc" destination="wcW-0L-xE0" id="YMF-b5-cww"/>
-                <outlet property="pPreparePaint" destination="yKc-Qz-MOK" id="Hsb-tN-Z7W"/>
-                <outlet property="nStashEntries" destination="iHb-fr-nr7" id="bVF-b7-GAz"/>
-                <outlet property="sFakeFile" destination="MRG-mQ-7aK" id="BNE-wm-7I1"/>
-                <outlet property="eDrawPixmap" destination="eQP-Op-1dz" id="Jvk-I8-b6p"/>
-                <outlet property="hPlaceholderEnabled" destination="Ilv-vz-8jt" id="0Zp-04-psd"/>
                 <outlet property="aCachedPage" destination="8ac-kp-0Ba" id="Kns-e6-YZW"/>
-                <outlet property="vAutofillHints" destination="cle-8L-N4R" id="JwW-6n-LJq"/>
-                <outlet property="fAndroidParams" destination="wbi-TR-R3q" id="Avq-k2-NbD"/>
-                <outlet property="tAsPlaintext" destination="rSN-K8-FxR" id="BJ2-44-Dqk"/>
-                <outlet property="mTopLabel" destination="2YU-Ir-EAg" id="HGi-hN-HQ2"/>
                 <outlet property="bControlActive" destination="7ra-aK-gdx" id="SUr-76-BEb"/>
+                <outlet property="cCleanupFunc" destination="wcW-0L-xE0" id="YMF-b5-cww"/>
                 <outlet property="dRoundOutbound" destination="odo-CH-FqC" id="L8R-Op-G01"/>
+                <outlet property="eDrawPixmap" destination="eQP-Op-1dz" id="Jvk-I8-b6p"/>
+                <outlet property="fAndroidParams" destination="wbi-TR-R3q" id="Avq-k2-NbD"/>
                 <outlet property="hIsTranslator" destination="9dQ-TP-mIL" id="WVX-PA-dL3"/>
                 <outlet property="hPaddingType" destination="Lfo-hg-rQh" id="Z79-UW-3El"/>
+                <outlet property="hPlaceholderEnabled" destination="Ilv-vz-8jt" id="0Zp-04-psd"/>
+                <outlet property="hRequestObj" destination="nJT-rY-76b" id="XZJ-Jr-N3o"/>
+                <outlet property="lGlyphPage" destination="GTm-30-F4N" id="ctf-sf-agZ"/>
+                <outlet property="mTopLabel" destination="2YU-Ir-EAg" id="HGi-hN-HQ2"/>
+                <outlet property="nStashEntries" destination="iHb-fr-nr7" id="bVF-b7-GAz"/>
+                <outlet property="pLocalRect" destination="In8-cJ-mvT" id="Plg-Re-Wlv"/>
+                <outlet property="pPreparePaint" destination="yKc-Qz-MOK" id="Hsb-tN-Z7W"/>
+                <outlet property="sFakeFile" destination="MRG-mQ-7aK" id="BNE-wm-7I1"/>
+                <outlet property="tAsPlaintext" destination="rSN-K8-FxR" id="BJ2-44-Dqk"/>
+                <outlet property="vAutofillHints" destination="cle-8L-N4R" id="JwW-6n-LJq"/>
+                <outlet property="wHostBean" destination="PdH-zf-PeR" id="v7t-SS-dmF"/>
             </connections>
             <point key="canvasLocation" x="139.69465648854961" y="-20.422535211267608"/>
         </view>
