@@ -240,7 +240,7 @@
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZIV-Tg-B4r">
                                     <rect key="frame" x="0.0" y="0.0" width="281" height="84.666666666666671"/>
                                     <subviews>
-                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4E-Br-v8y" customClass="HeFolderBrowserDialog" customModule="Taleo_Chatroom">
+                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C4E-Br-v8y" customClass="HeFolderBrowserDialog" customModule="IMRoom">
                                             <rect key="frame" x="98.333333333333343" y="0.0" width="84.666666666666657" height="84.666666666666671"/>
                                             <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
@@ -256,7 +256,7 @@
                                                 <action selector="getDisplayNameForStream:" destination="-1" eventType="touchUpInside" id="fZf-35-NXA"/>
                                             </connections>
                                         </button>
-                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Or-Qo-y6G" customClass="HeFolderBrowserDialog" customModule="Taleo_Chatroom">
+                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Or-Qo-y6G" customClass="HeFolderBrowserDialog" customModule="IMRoom">
                                             <rect key="frame" x="196.33333333333334" y="0.0" width="84.666666666666657" height="84.666666666666671"/>
                                             <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -269,7 +269,7 @@
                                                 <action selector="getDisplayNameForStream:" destination="-1" eventType="touchUpInside" id="CRD-xN-HcC"/>
                                             </connections>
                                         </button>
-                                        <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auN-ZZ-okr" customClass="HeFolderBrowserDialog" customModule="Taleo_Chatroom">
+                                        <button opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auN-ZZ-okr" customClass="HeFolderBrowserDialog" customModule="IMRoom">
                                             <rect key="frame" x="0.0" y="0.0" width="84.666666666666671" height="84.666666666666671"/>
                                             <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -404,7 +404,7 @@
                                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhq-Vg-Msz">
                                     <rect key="frame" x="0.0" y="0.0" width="281" height="84.666666666666671"/>
                                     <subviews>
-                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAS-YG-oT2" customClass="HeFolderBrowserDialog" customModule="Taleo_Chatroom">
+                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAS-YG-oT2" customClass="HeFolderBrowserDialog" customModule="IMRoom">
                                             <rect key="frame" x="0.0" y="0.0" width="84.666666666666671" height="84.666666666666671"/>
                                             <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
@@ -420,7 +420,7 @@
                                                 <action selector="getDisplayNameForStream:" destination="-1" eventType="touchUpInside" id="2pZ-CH-4eA"/>
                                             </connections>
                                         </button>
-                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skr-0X-Jiy" customClass="HeFolderBrowserDialog" customModule="Taleo_Chatroom">
+                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="skr-0X-Jiy" customClass="HeFolderBrowserDialog" customModule="IMRoom">
                                             <rect key="frame" x="98.333333333333343" y="0.0" width="84.666666666666657" height="84.666666666666671"/>
                                             <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -433,7 +433,7 @@
                                                 <action selector="getDisplayNameForStream:" destination="-1" eventType="touchUpInside" id="7J7-Xn-tDA"/>
                                             </connections>
                                         </button>
-                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfJ-gF-0g2" customClass="HeFolderBrowserDialog" customModule="Taleo_Chatroom">
+                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfJ-gF-0g2" customClass="HeFolderBrowserDialog" customModule="IMRoom">
                                             <rect key="frame" x="196.33333333333334" y="0.0" width="84.666666666666657" height="84.666666666666671"/>
                                             <color key="backgroundColor" red="0.91764705882352937" green="0.91764705882352937" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -464,7 +464,7 @@
                                 <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i1p-KD-xEs">
                                     <rect key="frame" x="0.0" y="0.0" width="281" height="84.666666666666671"/>
                                     <subviews>
-                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zU6-2K-Epe" customClass="HeFolderBrowserDialog" customModule="Taleo_Chatroom">
+                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zU6-2K-Epe" customClass="HeFolderBrowserDialog" customModule="IMRoom">
                                             <rect key="frame" x="0.0" y="0.0" width="84.666666666666671" height="84.666666666666671"/>
                                             <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
@@ -480,7 +480,7 @@
                                                 <action selector="getDisplayNameForStream:" destination="-1" eventType="touchUpInside" id="vRM-qB-yCZ"/>
                                             </connections>
                                         </button>
-                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ad-mh-Bkw" customClass="HeFolderBrowserDialog" customModule="Taleo_Chatroom">
+                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ad-mh-Bkw" customClass="HeFolderBrowserDialog" customModule="IMRoom">
                                             <rect key="frame" x="98.333333333333343" y="0.0" width="84.666666666666657" height="84.666666666666671"/>
                                             <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -493,7 +493,7 @@
                                                 <action selector="getDisplayNameForStream:" destination="-1" eventType="touchUpInside" id="EHz-tb-XZw"/>
                                             </connections>
                                         </button>
-                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOx-3D-zv4" customClass="HeFolderBrowserDialog" customModule="Taleo_Chatroom">
+                                        <button hidden="YES" opaque="NO" clipsSubviews="YES" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pOx-3D-zv4" customClass="HeFolderBrowserDialog" customModule="IMRoom">
                                             <rect key="frame" x="196.33333333333334" y="0.0" width="84.666666666666657" height="84.666666666666671"/>
                                             <color key="backgroundColor" red="0.91764705879999997" green="0.91764705879999997" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
